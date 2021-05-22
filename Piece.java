@@ -16,9 +16,8 @@ import java.util.StringTokenizer;
 public final class Piece {
     /*
      * Implementation hints:
-     *  -The starter code does out a few simple things for you
-     *      -Store the body as a Point[] array
-     *  -The attributes of the Point class are x and y
+     *  -The starter code does a few simple things for you
+     *  -The attributes of the Point class are x and y and are public
      *  -Do not assume there are 4 points in the body -- use array.length
      *          to keep the code general
      */
