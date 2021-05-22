@@ -43,7 +43,25 @@ public final class Piece {
      */
     private Piece(Point[] points)
     {
-        // TODO: implement constructor
+        // initialize next to null; it will be initialized in the pieceRow method
+        this.next = null;
+        
+        // TODO: copy the points array and copy the Point elements in the array
+        //  Note: this.body = points copies the reference to the array referenced by points;
+        //      it does not create a new array of references to Point objects
+        //  Note: this.body[i] = points[i] copies a reference to a Point object;
+        //      it does not create a new Point object with the same x and y attributes
+        //      as the element in the points array
+        
+        
+        // TODO: initialize the width instance variable with the width of the piece
+        
+        // TODO: initialize the height instance variable with the height of the piece
+        
+        // TODO: initialize the skirt instance variable
+        //  Note: carefully read and description of the skirt in the lab document;
+        //      this is the most challenging algorithm in this constructor
+
     }   
 
     /**
