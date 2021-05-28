@@ -60,6 +60,16 @@ public final class Piece {
         // TODO: initialize the skirt instance variable
         //  Note: carefully read and description of the skirt in the lab document;
         //      this is the most challenging algorithm in this constructor
+        
+        // skirt psuedocode
+        // create a new skirt array with the appropriate number of elements
+        // initialize each element in the skirt to a "large" value (e.g., height)
+        // for each point in the body:
+            // get the x value
+            // get the y value
+            // check if the y value is less than the value in the skirt 
+            //      at the index equal to the x value
+            // if so, update the value in the skirt
 
     }   
 
