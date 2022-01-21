@@ -279,7 +279,7 @@ public final class Piece {
      */
     private static Point[] parsePoints(String string)
     {
-        ArrayList<Point> points = new ArrayList();
+        ArrayList<Point> points = new ArrayList<>();
         StringTokenizer tok = new StringTokenizer(string);
         try
         {
